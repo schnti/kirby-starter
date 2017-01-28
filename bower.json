@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "authors": [
+    "kleiner als / webdesign <info@kleiner-als.de>"
+  ],
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.1.3",
+    "bootstrap-sass": "3.3.6"
+  }
+}
