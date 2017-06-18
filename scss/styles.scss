@@ -62,10 +62,18 @@ $icon-font-path: '/assets/fonts/bootstrap/';
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 // cookie approval
+//$ka-cookie-bg: #222 !default;
+//$ka-cookie-color: #fff !default;
+//$ka-cookie-link-color: #31a8f0 !default;
+//$ka-cookie-link-color-hover: #b2f7ff !default;
+//$ka-cookie-btn-bg: #f1d600 !default;
+//$ka-cookie-btn-color: #222 !default;
+
 //@import "../website/site/plugins/cookie/cookie.scss";
 
 //@import "css-debug";
 //@import "col-middle";
+//@import "flexthis";
 @import "fonts";
 
 .uniform__potty {
@@ -82,4 +90,13 @@ figure {
   img {
     @extend .img-responsive;
   }
+}
+
+[class*='col-'] > h2:first-child,
+[class*='col-'] > h3:first-child,
+[class*='col-'] > h4:first-child,
+[class*='col-'] > h5:first-child,
+[class*='col-'] > h6:first-child {
+  margin-top: 0;
+  //color: red; // for debug
 }

@@ -2,7 +2,7 @@ module.exports = {
     paths : {
         index : 'website/index.html',
         html : ['./website/index.php', './website/site/snippets/**/*.php', './website/site/templates/**/*.php'],
-        sass : ['scss/**/*.scss'],
+        sass : ['scss/**/*.scss', 'website/site/modules/**/*.scss'],
         sassMain : ['scss/styles.scss'],
         bower : 'bower_components',
         dist : 'website'
