@@ -59,7 +59,8 @@ $icon-font-path: '/assets/fonts/bootstrap/';
 //$ka-cookie-btn-bg: $w-red;
 //$ka-cookie-btn-color: #fff;
 
-@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "bootstrap";
 
 // cookie approval
 //$ka-cookie-bg: #222 !default;
