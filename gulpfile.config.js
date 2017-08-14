@@ -42,5 +42,13 @@ module.exports = {
                 base : 'bootstrap-sass/assets/'
             }
         }
+    },
+    favicon : {
+        masterPicture : 'website/assets/images/favicon.svg',
+        dest : 'website/assets/favicon/',
+        iconsPath : '/assets/favicon/',
+        color : '#ed2129',
+        complementaryColor : '#ffffff',
+        name : 'Projekt'
     }
 };
