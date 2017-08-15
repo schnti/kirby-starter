@@ -13,15 +13,11 @@ module.exports = {
             'jquery/dist/jquery.min.js',
             // 'bootstrap/dist/js/bootstrap.min.js',
             'bootstrap-sass/assets/javascripts/bootstrap.min.js',
-            // 'cookieconsent/build/cookieconsent.min.js'
-
-            //'fancybox/source/jquery.fancybox.pack.js',
             //'photoswipe/dist/photoswipe.js',
             //'photoswipe/dist/photoswipe-ui-default.js'
+            //'fancybox/source/jquery.fancybox.pack.js',
         ], css : [
             //'fancybox/source/jquery.fancybox.css'
-            //'photoswipe/dist/photoswipe.css',
-            //'photoswipe/dist/default-skin/default-skin.css'
         ], assets : {
             //lightboxImages : {
             //src : ['lightbox2/dist/images/*.*'],
