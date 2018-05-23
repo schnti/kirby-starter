@@ -11,8 +11,7 @@ module.exports = {
     bower : {
         js : [
             'jquery/dist/jquery.min.js',
-            // 'bootstrap/dist/js/bootstrap.min.js',
-            'bootstrap-sass/assets/javascripts/bootstrap.min.js',
+            'bootstrap/dist/js/bootstrap.bundle.min.js'
             //'photoswipe/dist/photoswipe.js',
             //'photoswipe/dist/photoswipe-ui-default.js'
             //'fancybox/source/jquery.fancybox.pack.js',

@@ -5,53 +5,16 @@ $w-black: #262928;
 // Bootstrap
 $icon-font-path: '/assets/fonts/bootstrap/';
 
-//$font-family-sans-serif: 'Nunito Sans', sans-serif;
+@import "../bower_components/bootstrap/scss/functions";
+@import "../bower_components/bootstrap/scss/variables";
+@import "../bower_components/bootstrap/scss/mixins";
 
-//$border-radius-base: 0px;
-//$border-radius-small: 0px;
-//$input-height-small: 25px;
+// Bootstrap vars
 
-//$navbar-height: 10px;
-//$navbar-default-bg: rgba(255, 255, 255, .7);
-//$navbar-default-border: 0;
-//$navbar-default-color: $w-red;
-//$navbar-default-link-color: $w-red;
-//$navbar-default-link-hover-color: $w-red;
-//$navbar-default-link-hover-bg: transparent;
-//$navbar-default-link-active-color: $w-red;
-//$navbar-default-link-active-bg: transparent;
-//$navbar-default-toggle-border-color: $w-red;
-//$navbar-default-toggle-icon-bar-bg: $w-red;
+//$btn-border-radius: 0;
+//$headings-font-family: ;
 
-//$link-color: $w-black;
-
-// for contact form
-//$state-danger-text: $w-red;
-
-//$navbar-height: 120px; // TODO
-//$navbar-default-color: $bsh-grau;
-//$navbar-default-link-color: $bsh-grau;
-//$navbar-default-link-hover-color: $bsh-blau1;
-//$navbar-default-bg: $bah-font-invert;
-//$navbar-default-link-active-color: $bsh-blau1;
-//$navbar-default-border: none;
-//$navbar-default-link-active-bg: none;
-
-//$navbar-height: 70px;
-//$navbar-default-brand-hover-bg: #fff;
-
-//$font-size-base: 15px;
-
-//$font-size-h1: floor(($font-size-base * 2.0));
-//$font-size-h2: floor(($font-size-base * 1.5));
-//$font-size-h3: $font-size-base;
-//$font-size-h4: ceil(($font-size-base * 0.95));
-//$font-size-h5: ceil(($font-size-base * 0.90));
-//$font-size-h6: ceil(($font-size-base * 0.85));
-
-//$dl-horizontal-offset: 100px;
-
-//@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+// Bootstrap
 @import "bootstrap";
 
 // cookie approval
